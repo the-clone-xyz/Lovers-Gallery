@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
+body {
+    height: 100rem;
+    background-color: pink;
+}
+
+
+.font-h1 {
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.card-list-1 {
+    border: none !important;
+    border-radius: 0px !important;
+    opacity: 30%;
+}
+
+.card {
+    border: none !important;
+}
+
+img {
+    width: 100%;
+}
+
+.icon-love {
+    font-size: 50px;
+}
+
+.animate-list-1 {
+    transition: 1s;
+    opacity: 50% !important;
+}
+
+.animate-list-1:hover {
+    transition-duration: 0.7s !important;
+    cursor: pointer !important;
+    opacity: 100% !important;
+    box-shadow: 0 4px 20px rgb(255, 255, 255);
+}
+
+.show-shadow {
+    transition-duration: 0.7s;
+}
+
+.show-shadow:hover {
+    box-shadow: 0 4px 20px rgb(255, 255, 255);
+    transition-duration: 0.4s !important;
+    cursor: pointer;
+    transform: scale(1.02) !important;
+}
+
+.hover-down:hover {
+    box-shadow: 0 4px 20px rgb(255, 255, 255);
+    transition-duration: 0.2s !important;
+    cursor: pointer;
+    transform: translateY(12px) !important;
+}
+
+
+.icon-card {
+    margin-top: -30px;
+    margin-bottom: -30px;
+    font-size: 50px;
+}
+
+.list-1>img {
+    border-radius: 30px 0px 30px 0px;
+}
+
+.text-shadow {
+    text-shadow: 0 0 10px rgb(255, 255, 255)
+}
+
+.text-list-2 {
+    font-family: monospace, sans-serif;
+}
+
+.animate-love {
+    animation: animate-love 2s infinite;
+}
+
+@keyframes animate-love {
+    from {
+        color: white;
+    }
+
+    to {
+        color: red;
+    }
+}
+
+.border-none {
+    border-radius: 0px !important;
+}
+
+#kata2 {
+    opacity: 0;
+    font-style: normal;
+    transition: opacity 0.5s ease-in-out, font-style 0.5s ease-in-out;
+
+}
